@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "tripId": "boston-2026-11",
+  "checked": "2026-11-10",
+  "places": {
+    "backbay": {
+      "name": "Back Bay Station",
+      "address": "145 Dartmouth Street",
+      "coordinates": [
+        -71.07535,
+        42.34735
+      ]
+    },
+    "eataly": {
+      "name": "Eataly Boston",
+      "address": "800 Boylston Street, Prudential Center",
+      "coordinates": [
+        -71.0824,
+        42.3481
+      ]
+    },
+    "serafina": {
+      "name": "Serafina Newbury",
+      "address": "235 Newbury Street",
+      "coordinates": [
+        -71.0824,
+        42.3496
+      ]
+    },
+    "bpl": {
+      "name": "Boston Public Library & Copley Square",
+      "address": "700 Boylston Street",
+      "coordinates": [
+        -71.078,
+        42.3493
+      ]
+    },
+    "newbury": {
+      "name": "Newbury Street",
+      "address": "Newbury & Exeter Streets",
+      "coordinates": [
+        -71.0811,
+        42.3501
+      ]
+    },
+    "encore": {
+      "name": "Encore Boston Harbor",
+      "address": "1 Broadway, Everett",
+      "coordinates": [
+        -71.0707,
+        42.3955
+      ]
+    },
+    "faneuil": {
+      "name": "Faneuil Hall & Quincy Market",
+      "address": "Faneuil Hall Square",
+      "coordinates": [
+        -71.0555,
+        42.3601
+      ]
+    },
+    "oldstate": {
+      "name": "Old State House",
+      "address": "206 Washington Street",
+      "coordinates": [
+        -71.0577,
+        42.3588
+      ]
+    },
+    "paulrevere": {
+      "name": "Paul Revere House",
+      "address": "19 North Square",
+      "coordinates": [
+        -71.0537,
+        42.3637
+      ]
+    },
+    "oldnorth": {
+      "name": "Old North Church",
+      "address": "193 Salem Street",
+      "coordinates": [
+        -71.0545,
+        42.3663
+      ]
+    },
+    "umberto": {
+      "name": "Galleria Umberto",
+      "address": "289 Hanover Street",
+      "coordinates": [
+        -71.0545,
+        42.3634
+      ]
+    },
+    "mikes": {
+      "name": "Mike’s Pastry",
+      "address": "300 Hanover Street",
+      "coordinates": [
+        -71.0542,
+        42.3634
+      ]
+    },
+    "modern": {
+      "name": "Modern Pastry",
+      "address": "257 Hanover Street",
+      "coordinates": [
+        -71.0551,
+        42.3629
+      ]
+    },
+    "beacon": {
+      "name": "Beacon Hill",
+      "address": "Acorn Street & Charles Street",
+      "coordinates": [
+        -71.0706,
+        42.3579
+      ]
+    },
+    "garden": {
+      "name": "Public Garden & Boston Common",
+      "address": "Charles Street entrance",
+      "coordinates": [
+        -71.0696,
+        42.3546
+      ]
+    },
+    "toro": {
+      "name": "Toro",
+      "address": "1704 Washington Street",
+      "coordinates": [
+        -71.0759,
+        42.3363
+      ]
+    },
+    "wally": {
+      "name": "Wally’s Cafe Jazz Club",
+      "address": "427 Massachusetts Avenue",
+      "coordinates": [
+        -71.0849,
+        42.3406
+      ]
+    },
+    "bell": {
+      "name": "Bell in Hand Tavern",
+      "address": "45 Union Street",
+      "coordinates": [
+        -71.0569,
+        42.3614
+      ]
+    },
+    "howl": {
+      "name": "Howl at the Moon",
+      "address": "184 High Street",
+      "coordinates": [
+        -71.0525,
+        42.3569
+      ]
+    },
+    "view": {
+      "name": "View Boston",
+      "address": "800 Boylston Street, Prudential Center",
+      "coordinates": [
+        -71.0825,
+        42.347
+      ]
+    },
+    "gardner": {
+      "name": "Isabella Stewart Gardner Museum",
+      "address": "25 Evans Way",
+      "coordinates": [
+        -71.099,
+        42.3382
+      ]
+    },
+    "sullivan": {
+      "name": "Sullivan Square",
+      "address": "Orange Line / MBTA bus connection",
+      "coordinates": [
+        -71.0758,
+        42.3839
+      ]
+    },
+    "haymarket": {
+      "name": "Haymarket",
+      "address": "Orange Line",
+      "coordinates": [
+        -71.0583,
+        42.363
+      ]
+    },
+    "downtown": {
+      "name": "Downtown Crossing",
+      "address": "Orange Line",
+      "coordinates": [
+        -71.0602,
+        42.3555
+      ]
+    },
+    "ruggles": {
+      "name": "Ruggles",
+      "address": "Orange Line",
+      "coordinates": [
+        -71.0893,
+        42.3364
+      ]
+    },
+    "massave": {
+      "name": "Massachusetts Avenue",
+      "address": "Orange Line",
+      "coordinates": [
+        -71.083,
+        42.3415
+      ]
+    },
+    "luggage": {
+      "name": "Bounce Boylston · luggage storage",
+      "address": "563 Boylston Street",
+      "coordinates": [
+        -71.0759,
+        42.3506
+      ]
+    },
+    "mariel": {
+      "name": "Mariel",
+      "address": "10 Post Office Square, Boston",
+      "coordinates": [
+        -71.056066,
+        42.35742
+      ]
+    }
+  },
+  "stops": [
+    {
+      "board": "e-boston-outbound-1113",
+      "place": "backbay",
+      "title": "Arrive in Boston",
+      "useEnd": true,
+      "terminal": "arrival",
+      "fixed": true,
+      "detail": "Exit toward Dartmouth Street and walk to the proposed luggage storage at 563 Boylston Street. Storage still needs booking; lunch follows the drop."
+    },
+    {
+      "board": "e-boston-luggage-drop-1110",
+      "place": "luggage",
+      "title": "Drop luggage · Bounce Boylston",
+      "detail": "11:45–11:55am at 563 Boylston Street. Reserve online first and show the confirmation; not yet booked. Published Friday hours 9:30am–10:30pm. Allow 15 minutes walking onward to lunch. Return here at 1:55pm to collect bags."
+    },
+    {
+      "board": "e-boston-lunch-1110",
+      "place": "eataly",
+      "title": "Lunch in Back Bay",
+      "choice": "lunch",
+      "options": [
+        "eataly",
+        "serafina"
+      ],
+      "detail": "Eataly is the route preview; Serafina remains an option. Pick a map option below. This does not make a reservation."
+    },
+    {
+      "board": "e-boston-newbury-1110",
+      "place": "newbury",
+      "detail": "A short shopping/coffee window. Leave by 1:40pm to collect luggage at 1:55pm before the 2:15pm Uber to Encore. Skip shopping if lunch runs long."
+    },
+    {
+      "board": "e-boston-luggage-pickup-1110",
+      "place": "luggage",
+      "title": "Collect luggage · before Encore",
+      "detail": "Collect every bag around 1:55–2:05pm. Keep your storage confirmation handy. Request the Encore Uber about 2:15pm from a legal nearby curb; protect the 3:30pm spa arrival."
+    },
+    {
+      "board": "e-boston-early-checkin-1110",
+      "place": "encore",
+      "title": "Arrive at Encore",
+      "fixed": true,
+      "detail": "Request early check-in; 4pm is the standard time. If the room is not ready, ask the bell desk. Keep Sneha’s 3:30pm spa arrival protected."
+    },
+    {
+      "board": "e-boston-spa-arrive-1110",
+      "place": "encore",
+      "title": "Spa arrival",
+      "detail": "Sneha arrives 45 minutes before the treatment. Everything in this block is within the resort."
+    },
+    {
+      "board": "e-boston-spa-1110",
+      "place": "encore",
+      "title": "Spa & casino time",
+      "fixed": true,
+      "detail": "Sneha: massage 4:15–5:45pm, reported booked in the handoff. Daivik: casino or taproom roughly 4–6pm. Regroup around 6pm."
+    },
+    {
+      "board": "e-boston-dinner-friday-1110",
+      "place": "encore",
+      "title": "Dinner at Encore",
+      "detail": "Fratelli or Red 8. Venue choice and reservation remain to confirm. Allow a few minutes to walk through the resort."
+    },
+    {
+      "board": "e-boston-drinks-1110",
+      "place": "encore",
+      "title": "Drinks, then a quiet night",
+      "detail": "Night Shift Brewing or Center Bar. Your room is in the same resort."
+    },
+    {
+      "board": "e-boston-breakfast-1110",
+      "place": "encore",
+      "title": "Breakfast at Encore",
+      "optional": true,
+      "detail": "Coffee or breakfast; keep the morning flexible."
+    },
+    {
+      "board": "e-boston-shuttle-1110",
+      "place": "faneuil",
+      "title": "Waterfront & Faneuil Hall",
+      "offsetMinutes": 40,
+      "detail": "Uber from Encore to the waterfront. The arrival target adds a 40-minute planning allowance to the departure saved on the board. The winter ferry does not run before 1pm on weekends."
+    },
+    {
+      "board": "e-boston-freedom-1110",
+      "place": "oldstate",
+      "title": "Freedom Trail walk",
+      "via": [
+        "paulrevere",
+        "oldnorth"
+      ],
+      "detail": "Walk Old State House → Paul Revere House → Old North Church → Hanover Street for lunch. About 30–40 minutes of walking across the route, plus stops; choose exterior visits if the morning runs late."
+    },
+    {
+      "board": "e-boston-northend-1110",
+      "place": "umberto",
+      "title": "Lunch at Galleria Umberto",
+      "fixed": true,
+      "detail": "Your selected lunch. Bring cash per the handoff and arrive promptly; current sellout timing is not verified."
+    },
+    {
+      "board": "e-boston-cannoli-1110",
+      "place": "mikes",
+      "title": "Cannoli in the North End",
+      "choice": "pastry",
+      "options": [
+        "mikes",
+        "modern"
+      ],
+      "detail": "Both shops are on Hanover Street, a short walk from lunch. Leave the North End around 2pm for Beacon Hill."
+    },
+    {
+      "board": "e-boston-beacon-1110",
+      "place": "beacon",
+      "title": "Beacon Hill",
+      "detail": "Charles Street shops and Acorn Street. The walk from the North End takes about 25–30 minutes; Uber is available if you would rather skip it."
+    },
+    {
+      "board": "e-boston-garden-1110",
+      "place": "garden",
+      "title": "Common & Public Garden",
+      "detail": "Walk south from Beacon Hill. Keep this outdoors block before the early November sunset."
+    },
+    {
+      "board": "e-boston-coffee-1110",
+      "place": "encore",
+      "title": "Back to Encore · rest & change",
+      "offsetMinutes": 60,
+      "detail": "Coffee around 4:30pm, Uber about 4:40–4:45pm, Encore around 5:30pm. Rest and change before the 8:30pm departure for your confirmed 9:30pm dinner at Mariel."
+    },
+    {
+      "board": "e-boston-dinner-saturday-1110",
+      "place": "mariel",
+      "title": "Mariel · confirmed dinner",
+      "fixed": true,
+      "arrivalBuffer": 15,
+      "detail": "Confirmed from your reservation screenshot: Saturday November 14 at 9:30pm, party of two, anniversary. Arrive by 9:15pm. Allow dinner until about 11pm, then walk to Howl. Dietary preferences were not shown as filled in on the confirmation. The reservation reference and screenshot are saved privately in Huncho HQ."
+    },
+    {
+      "board": "e-boston-nightlife-1110",
+      "place": "howl",
+      "title": "Howl at the Moon",
+      "optional": false,
+      "detail": "Your selected stop 10 after Mariel. Target about 11:10pm after a planned 11pm dinner finish; walk about 10 minutes to 184 High Street. Timing is flexible. Saturday hours 6pm–2am, 21+ with valid ID. Cover, capacity and any table reservation remain unconfirmed. Beehive/Wally’s were researched as alternatives, but Howl remains selected. Uber back to Encore when ready.",
+      "arrivalBuffer": 0
+    },
+    {
+      "board": "e-boston-hotel-checkout-1115",
+      "place": "encore",
+      "title": "Check out of your room",
+      "fixed": true,
+      "detail": "Pack around 10:15am and check out by 11am. Stay at the resort for brunch."
+    },
+    {
+      "board": "e-boston-brunch-1110",
+      "place": "encore",
+      "title": "Brunch at the resort",
+      "detail": "Encore brunch is your choice. The exact restaurant and reservation are still unspecified; 11:30 is the planning time."
+    },
+    {
+      "board": "e-boston-station-1110",
+      "place": "backbay",
+      "title": "Arrive at Back Bay Station",
+      "fixed": true,
+      "arrivalBuffer": 20,
+      "detail": "Be inside by 4:05pm. Check the departure board for your track; keep the 25-minute buffer before the train."
+    },
+    {
+      "board": "e-boston-return-1115",
+      "place": "backbay",
+      "title": "Train home",
+      "terminal": "departure",
+      "fixed": true,
+      "detail": "Northeast Regional 167 departs 4:30pm. Handoff arrival at Newark Penn: 9:23pm. This is a schedule display, not live Amtrak tracking."
+    }
+  ],
+  "legs": {
+    "backbay:eataly": {
+      "walk": 15,
+      "uber": 20,
+      "steps": "Exit on Dartmouth, then walk via Stuart / Huntington into Prudential."
+    },
+    "backbay:serafina": {
+      "walk": 18,
+      "uber": 20,
+      "steps": "Walk north toward Newbury Street; Serafina is at 235 Newbury."
+    },
+    "eataly:bpl": {
+      "walk": 10,
+      "uber": 15,
+      "steps": "Walk east on Boylston Street to the library and Copley Square."
+    },
+    "serafina:bpl": {
+      "walk": 10,
+      "uber": 15,
+      "steps": "Walk toward Exeter and Boylston, then east to Copley."
+    },
+    "bpl:newbury": {
+      "walk": 8,
+      "uber": 15,
+      "steps": "Walk up Dartmouth and west along Newbury."
+    },
+    "newbury:encore": {
+      "uber": 45,
+      "transit": 70,
+      "steps": "Uber to the hotel entrance at 1 Broadway. Protect the 3:30pm spa arrival.",
+      "transitSteps": "Walk to Back Bay → Orange Line toward Oak Grove → Sullivan Square → bus 104/105/109 toward Encore → walk to the hotel.",
+      "transitVia": [
+        "backbay",
+        "sullivan"
+      ]
+    },
+    "encore:faneuil": {
+      "uber": 40,
+      "transit": 60,
+      "steps": "Uber to the Faneuil Hall area; finish on foot where streets are pedestrian-only.",
+      "transitSteps": "Walk to the Broadway bus stop → Sullivan-bound bus → Orange Line toward Forest Hills → Haymarket → walk to Faneuil Hall.",
+      "transitVia": [
+        "sullivan",
+        "haymarket"
+      ]
+    },
+    "faneuil:oldstate": {
+      "walk": 8,
+      "uber": 15,
+      "steps": "Walk via Congress and State Street."
+    },
+    "oldstate:umberto": {
+      "walk": 40,
+      "uber": 20,
+      "via": [
+        "paulrevere",
+        "oldnorth"
+      ],
+      "steps": "Freedom Trail walk via Paul Revere House, then Old North Church, then south on Hanover to lunch. Allow sightseeing time in addition to the walking allowance.",
+      "defaultMode": "walk"
+    },
+    "umberto:mikes": {
+      "walk": 5,
+      "uber": 15,
+      "steps": "Walk along Hanover Street; Mike’s is across the short restaurant cluster."
+    },
+    "umberto:modern": {
+      "walk": 5,
+      "uber": 15,
+      "steps": "Walk south on Hanover Street to Modern Pastry."
+    },
+    "mikes:beacon": {
+      "walk": 30,
+      "uber": 25,
+      "defaultMode": "uber",
+      "steps": "Uber to Charles Street, then walk to Acorn Street. Walking alternative: Congress / Cambridge toward Beacon Hill."
+    },
+    "modern:beacon": {
+      "walk": 30,
+      "uber": 25,
+      "defaultMode": "uber",
+      "steps": "Uber to Charles Street, then walk to Acorn Street. Walking alternative via Congress / Cambridge."
+    },
+    "beacon:garden": {
+      "walk": 15,
+      "uber": 20,
+      "steps": "Walk south down Charles Street into the Common / Public Garden."
+    },
+    "garden:encore": {
+      "uber": 50,
+      "transit": 70,
+      "steps": "Request pickup at a legal curb by the park; allow traffic and driver pickup time.",
+      "transitSteps": "Walk to Downtown Crossing → Orange Line toward Oak Grove → Sullivan Square → bus 104/105/109 toward Encore.",
+      "transitVia": [
+        "downtown",
+        "sullivan"
+      ]
+    },
+    "howl:encore": {
+      "uber": 40,
+      "steps": "Uber back to Encore’s hotel entrance."
+    },
+    "encore:view": {
+      "uber": 55,
+      "transit": 75,
+      "steps": "Uber to Prudential / 800 Boylston. Sunday 5K road restrictions may add delay; allow a full hour around pickup.",
+      "transitSteps": "Bus to Sullivan → Orange Line toward Forest Hills → Back Bay → walk to Prudential. Do not use the closed Green Line corridor.",
+      "transitVia": [
+        "sullivan",
+        "backbay"
+      ]
+    },
+    "encore:gardner": {
+      "uber": 55,
+      "transit": 80,
+      "steps": "Uber to 25 Evans Way. Leave resort brunch by about 12:25 for a 1:20 arrival.",
+      "transitSteps": "Bus to Sullivan → Orange Line toward Forest Hills → Ruggles → walk to 25 Evans Way.",
+      "transitVia": [
+        "sullivan",
+        "ruggles"
+      ]
+    },
+    "view:backbay": {
+      "walk": 15,
+      "uber": 25,
+      "steps": "Walk through Prudential toward Huntington / Stuart, then Dartmouth to Back Bay Station."
+    },
+    "gardner:backbay": {
+      "uber": 35,
+      "transit": 40,
+      "walk": 35,
+      "steps": "Uber to Back Bay Station. Leave the museum by 3:15–3:25pm; keep the 4:05 station target.",
+      "transitSteps": "Walk to Ruggles → Orange Line toward Oak Grove → Back Bay (two stops).",
+      "transitVia": [
+        "ruggles",
+        "massave"
+      ]
+    },
+    "eataly:newbury": {
+      "walk": 8,
+      "uber": 15,
+      "steps": "Walk north toward Newbury Street for shopping and coffee; the library stop has been removed."
+    },
+    "serafina:newbury": {
+      "walk": 5,
+      "uber": 15,
+      "steps": "Continue along Newbury Street for shopping and coffee."
+    },
+    "encore:backbay": {
+      "uber": 60,
+      "transit": 75,
+      "arrivalBuffer": 20,
+      "steps": "Stay at Encore after brunch, then request Uber around 2:45pm. Aim for Back Bay by 3:45pm; the hard station target is 4:05pm for the 4:30pm train. Sunday road restrictions may add delay.",
+      "transitSteps": "Bus toward Sullivan Square → Orange Line toward Forest Hills → Back Bay. Leave earlier than the Uber plan; verify service.",
+      "transitVia": [
+        "sullivan"
+      ]
+    },
+    "backbay:luggage": {
+      "walk": 13,
+      "uber": 20,
+      "steps": "Exit onto Dartmouth Street and walk north to Boylston, then east to 563. Allow time to exit the station with bags."
+    },
+    "luggage:eataly": {
+      "walk": 15,
+      "uber": 20,
+      "steps": "After dropping bags, walk west on Boylston to Eataly at Prudential, 800 Boylston."
+    },
+    "luggage:serafina": {
+      "walk": 15,
+      "uber": 20,
+      "steps": "After dropping bags, walk toward Newbury Street and west to Serafina, 235 Newbury."
+    },
+    "newbury:luggage": {
+      "walk": 15,
+      "uber": 20,
+      "steps": "Leave shopping by 1:40pm and walk back to 563 Boylston for 1:55pm bag collection."
+    },
+    "luggage:encore": {
+      "uber": 45,
+      "steps": "Collect bags first, then request Uber around 2:15pm to Encore’s hotel entrance, 1 Broadway, Everett. Extra 10-minute cushion before the 3:10pm arrival target."
+    },
+    "encore:mariel": {
+      "uber": 45,
+      "transit": 75,
+      "steps": "Uber to Mariel at 10 Post Office Square. Leave Encore at 8:30pm for a 9:15pm arrival, keeping 15 minutes before the confirmed 9:30pm dinner.",
+      "transitSteps": "Backup: bus to Sullivan → Orange Line toward Forest Hills → State → walk to Post Office Square. Allow 75 minutes and arrive 15 minutes early; verify service.",
+      "transitVia": [
+        "sullivan",
+        "oldstate"
+      ]
+    },
+    "mariel:howl": {
+      "walk": 10,
+      "uber": 15,
+      "steps": "After dinner, walk from Post Office Square toward Congress and High Street to Howl at 184 High Street. Allow 10 minutes including crossings. Target about 11:10pm if dinner ends at 11pm."
+    }
+  },
+  "sources": [
+    {
+      "title": "Weekend road & Green Line advisory",
+      "url": "https://www.boston.gov/news/traffic-advisory-november-6-2026"
+    },
+    {
+      "title": "Encore public transport directions",
+      "url": "https://www.encorebostonharbor.com/transportation/directions"
+    },
+    {
+      "title": "Encore winter ferry",
+      "url": "https://www.encorebostonharbor.com/transportation/encore-premium-harbor-shuttle"
+    },
+    {
+      "title": "Luggage storage · Bounce Boylston",
+      "url": "https://bounce.com/stores/boston/7cpmUA"
+    },
+    {
+      "title": "Howl at the Moon · hours & location",
+      "url": "https://home.howlatthemoon.com/boston/"
+    },
+    {
+      "title": "Mariel · location and hours",
+      "url": "https://www.marielofficial.com/location/mariel/"
+    },
+    {
+      "title": "Jazz alternative · Beehive Saturday late show",
+      "url": "https://www.beehiveboston.com/event-details/tentumbau"
+    }
+  ],
+  "warnings": [
+    "Green Line central closure Nov 7–15. Use Orange Line for rail alternatives.",
+    "Encore winter ferry starts at 1pm on weekends; no 10am ferry.",
+    "Sunday 5K around the Common may affect road access; allow extra time."
+  ]
+}
